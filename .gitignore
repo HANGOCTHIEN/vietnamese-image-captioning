@@ -1,0 +1,23 @@
+# Môi trường ảo & IDE
+.venv/
+venv/
+.env
+.vscode/
+
+# Python & Pytest cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Dữ liệu lớn & Trọng số mô hình
+data/*
+!data/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.jpg
+*.jpeg
+*.png
