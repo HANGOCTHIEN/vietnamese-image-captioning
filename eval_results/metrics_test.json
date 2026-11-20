@@ -1,0 +1,26 @@
+{
+  "metrics": {
+    "BLEU-1": 66.33478531423982,
+    "BLEU-2": 51.85000879100951,
+    "BLEU-3": 39.813957813922734,
+    "BLEU-4": 30.992593548433884,
+    "ROUGE-L": 50.99038513520181,
+    "CIDEr": 82.96186010012336
+  },
+  "stats": {
+    "num_images": 558,
+    "avg_length": 11.519713261648745,
+    "unique_captions": 362,
+    "unique_ratio": 0.6487455197132617,
+    "vocab_used": 195,
+    "unk_ratio": 0.0
+  },
+  "settings": {
+    "ckpt": "checkpoints/best.pt",
+    "split": "test",
+    "beam": 3,
+    "max_len": 30,
+    "lowercase": true,
+    "strip_punct": true
+  }
+}
